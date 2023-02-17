@@ -1,0 +1,4 @@
+func = @(x) exp(-x)-x
+dfunc = @(x) -exp(-x)-1
+xr = 0;
+[root, ea, iter] = newtraph(func, dfunc, xr)
